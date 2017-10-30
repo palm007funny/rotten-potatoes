@@ -1,0 +1,15 @@
+{
+  "name": "rotten-potatoes",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ]
+}
