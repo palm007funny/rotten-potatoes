@@ -12,10 +12,11 @@ for the course.
 
 0. Fork this repo to your GitHub account, then in your Cloud9 terminal, type the following command to clone your fork to your development workspace:
 
-  `git clone https://github.com/palm007funny/rotten-potatoes.git`
-   git commit -m "first commit"
-   git remote add origin https://github.com/palm007funny/rotten-potatoes.git
-   git push -u origin master
+0.  `git clone https://github.com/palm007funny/rotten-potatoes.git`
+0.  `git commit -m "first commit"`
+0.  `git remote add origin https://github.com/palm007funny/rotten-potatoes.git`
+0.  `git push`
+
 0. Run the command `bundle install --without production` to make sure all the gems
 (libraries) used by the app are in place.
 
