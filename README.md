@@ -12,11 +12,10 @@ for the course.
 
 0. Fork this repo to your GitHub account, then in your Cloud9 terminal, type the following command to clone your fork to your development workspace:
 
-  `git clone git@github.com:your_github_username/rottenpotatoes-rails-intro.git`
-
-0. Then `cd rottenpotatoes-rails-intro` to change to the app's
-directory.
-
+  `git clone https://github.com/palm007funny/rotten-potatoes.git`
+   git commit -m "first commit"
+   git remote add origin https://github.com/palm007funny/rotten-potatoes.git
+   git push -u origin master
 0. Run the command `bundle install --without production` to make sure all the gems
 (libraries) used by the app are in place.
 
