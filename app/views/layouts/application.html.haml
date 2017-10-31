@@ -10,10 +10,10 @@
     %h1.title Rotten Potatoes!
     #main
       - if current_user 
-        %p Welcome, #{current_user.name}!
+        %p Welcome, #{current_user.name}, #{current_user.role} 
         = link_to "Sign out", signout_path, id: "sign_out"
       - else 
-        = link_to "Sign in with Facebook", "/auth/facebook", id: "sign_in"
+        = link_to image_tag( 'facebook-login.png'), "/auth/facebook", id: "sign_in"
       - if flash[:notice]
         #notice.message= flash[:notice]
       - elsif flash[:warning]

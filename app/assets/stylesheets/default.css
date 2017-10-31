@@ -16,6 +16,15 @@ a {
   text-decoration: underline;
   font-weight: bold;
 }
+
+p {
+  color: blue;
+  font-size: 100%;
+  display: block;
+  width: 100%;
+  
+}
+
 h1 {
   color: maroon;
   font-size: 150%;
